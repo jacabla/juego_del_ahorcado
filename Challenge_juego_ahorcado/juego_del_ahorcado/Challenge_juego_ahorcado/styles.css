@@ -1,0 +1,252 @@
+body{
+    background-image: url(/Challenge_juego_ahorcado/imgFondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.boton{
+    background: transparent;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 45%;
+    top: 402px;
+}
+
+.boton:hover{
+    transition: 0.5s;
+    color: #921e1e;
+    font-weight: bold;
+    box-shadow: 10px 10px 11px -2px #921e1e;
+    -webkit-box-shadow: 10px 10px 11px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 11px -2px rgba(0,0,0,1) black;
+    width: 321px;
+    height: 117px;
+    border: 2px solid #ffffff;
+    font-size: 32px;
+}
+
+.botonAgregar{
+    border-radius: 24px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 304px;
+    height: 67px;
+    left: 45%;
+    top: 603px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    font-family: 'Inter';
+    font-size: 20px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.botonAgregar:hover{
+    transition: 0.5s;
+    background: transparent;
+    box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 10px 11px -2px rgba(0, 0, 0, 1) black;
+    width: 306px;
+    height: 69px;
+    color: #FFFFFF;
+    font-size: 21px;
+    border: 2px solid #ffffff;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 32px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #99abc2;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    /*text-shadow: 2px 2px rgb(0, 0, 0);*/
+}
+
+nav a:hover{
+    color: rgb(165, 51, 51);
+    font-size: 15.7px;
+    transition: 0.8s;
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+}
+
+.botonGuardar{
+    color: #FFFFFF ;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: transparent;
+    border-color: #ffffff;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    position: absolute;
+    top: 701px;
+    left: 20%;
+    font-size: 1.3em;
+}
+
+.botonGuardar:hover{
+    transition: 0.5s;
+    background: transparent;
+    box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63) black;
+    width: 335px;
+    height: 68.5px;
+    font-size: 1.5em;
+    border: solid white;
+}
+
+.botonCancelar{
+    color: #ffffff;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    position: absolute;
+    top: 701px;
+    left: 50%;
+    font-size: 1.3em;
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+.botonCancelar:hover{
+    transition: 0.5s;
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63) black;
+    width: 335px;
+    height: 68.5px;
+    font-size: 1.5em;
+    border-color: #FFFFFF;
+}
+
+.signo{
+    position: absolute;
+    top: 668px;
+    left: 20%;
+    color: transparent;
+}
+
+.leyenda{
+    position: absolute;
+    top: 651px;
+    left: 21%;
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.palabraNueva{
+    position: absolute;
+    top: 356px;
+    width: 30%;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    left: 30%;
+    font-size: 2em;
+    opacity: 70%;
+    color: #180909;
+    font-weight: bolder;
+}
+
+.canvas{
+    position: fixed;
+    left: 360px;
+    top: 60px;
+    background-color: transparent;
+}
+
+.imgFondo{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.botonIniciar{
+    position: absolute;
+    color: #ffffff;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    top: 350px;
+    left: 80%;
+    font-size: 1.3em;
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+.botonIniciar:hover{
+    transition: 0.5s;
+    color: #FFFFFF;
+    background: transparent;
+    box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 10px 10px 11px -2px rgba(0,0,0,0.63) black;
+    width: 335px;
+    height: 68.5px;
+    font-size: 1.5em;
+    border-color: #FFFFFF;
+}
